@@ -82,4 +82,4 @@ Please make sure to update tests as appropriate.
 # License
 [MIT](https://github.com/AdrianVillamayor/Gmail/blob/master/LICENSE)
 
-###Thanks for your help! 🎉
+### Thanks for your help! 🎉
