@@ -7,18 +7,18 @@ To start, import the `gmail` library.
 ```python
 import gmail
 ```  
-### INIT
+## INIT
 ```python
 im = gmail.connect($email, $pwd)
 ```
 
-### SEARCH
+## SEARCH
 
 ```python
 mail_ids = gmail.read_email_from_gmail(im, "INBOX", '(FROM "test@adrii.com" UNSEEN)')
 ```
 
-### READ
+## READ
 
 ```python
 mail_ids = gmail.read_email_from_gmail(im, "INBOX", '(FROM "test@adrii.com" UNSEEN)')
@@ -47,7 +47,7 @@ for uid in mail_ids[0].split():
 
 ```
 
-### ACTIONS
+## ACTIONS
 
 ```python
 gmail.read(im, uid)
@@ -68,7 +68,7 @@ gmail.rm_label(im, uid, flags)
 flags = gmail.getFlags(im, uid)
 ```
 
-### FINISH
+## FINISH
 ```python
 gmail.disconnect(im)
 ```
@@ -82,4 +82,4 @@ Please make sure to update tests as appropriate.
 # License
 [MIT](https://github.com/AdrianVillamayor/Gmail/blob/master/LICENSE)
 
-Thanks for your help! 🎉
+###Thanks for your help! 🎉
