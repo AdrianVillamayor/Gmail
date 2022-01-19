@@ -47,7 +47,7 @@ for uid in mail_ids[0].split():
 
 ```
 
-### Actions
+### ACTIONS
 
 ```python
 gmail.read(im, uid)
@@ -81,3 +81,5 @@ Please make sure to update tests as appropriate.
 
 # License
 [MIT](https://github.com/AdrianVillamayor/Gmail/blob/master/LICENSE)
+
+Thanks for your help! 🎉
