@@ -1,2 +1,2 @@
 # Gmail
-Lightweight Gmail mail management library. Search, read, archive, mark as read/unread, delete emails, and manage labels. 
+Lightweight Python Gmail mail management library. Search, read, archive, mark as read/unread, delete emails, and manage labels. 
